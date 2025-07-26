@@ -1,0 +1,6 @@
+require("settings")
+require("terminal")
+require("lazyconfig")
+require("diagnostics")
+require("lsp")
+require("telescope")

@@ -51,7 +51,7 @@ nvim/
 ├── README.md
 ├── init.lua
 └── lua/
-		├── settings.lua
+    ├── settings.lua
     ├── lazyconfig.lua
     ├── lsp.lua
     ├── diagnostics.lua

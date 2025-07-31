@@ -38,6 +38,7 @@ git clone <github-url> %userprofile%\AppData\Local\nvim
 | https://github.com/ThePrimeagen/harpoon                  | Harpoon          | Jump between buffers efficiently with this plugin.                                                                                                                             |
 | https://github.com/echasnovski/mini.nvim                 | Mini             | A collection of plugins, this configuration uses Mini for improved text objects and keymaps for these text objects.                                                            |
 | https://github.com/lewis6991/gitsigns.nvim               | Gitsigns         | Simple git integration directly in the neovim buffer to view updates.                                                                                                          |
+| https://github.com/folke/noice.nvim                      | Noice            | Experimental plugin which is used for UI enhancements
 | https://github.com/j-hui/fidget.nvim                     | Fidget           | View messages with this plugin to enable an enhanced UI experience.                                                                                                            |
 | https://github.com/nvim-lualine/lualine.nvim/tree/master | Lualine          | Customize the status line to display essential information.                                                                                                                    |
 | https://github.com/folke/todo-comments.nvim              | Todo Comments    | Automatically highlight keywords in comments for improved readability.                                                                                                         |
@@ -57,21 +58,6 @@ nvim/
     ├── telescope.lua
     ├── terminal.lua
     └── plugins/
-		    ├── autopairs.lua
-        ├── completions.lua
-        ├── fidget.lua
-        ├── format.lua
-        ├── git.lua
-        ├── harpoon.lua
-        ├── lazydev.lua
-        ├── lsp.lua
-        ├── mini.lua
-        ├── statusline.lua
-        ├── telescope.lua
-        ├── themes.lua
-        ├── todo-comments.lua
-        ├── treesitter.lua
-        └── whichkey.lua
 ```
 
 `init.lua` serves as the entry point for neovim configuration. Here all the files are imported

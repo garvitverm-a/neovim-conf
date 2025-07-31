@@ -36,8 +36,6 @@ vim.opt.undodir = vim.fn.expand("~/.vim/undodir")
 
 vim.o.inccommand = "split"
 
-vim.keymap.set("n", "<leader>e", ":Ex<CR>", { desc = "Open explorer menu" })
-
 vim.keymap.set("n", "<left>", "<cmd>echo 'Use h to move!!'<CR>")
 vim.keymap.set("n", "<right>", "<cmd>echo 'Use l to move!!'<CR>")
 vim.keymap.set("n", "<up>", "<cmd>echo 'Use k to move!!'<CR>")

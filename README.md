@@ -5,7 +5,6 @@
 - Lua ≥ 5.4
 - Any Nerd Font
 - luarocks (optional: read https://github.com/folke/lazy.nvim)
-- tree-sitter ≥ 0.25
 - fzf ≥ 0.64
 
 ## Start
@@ -41,7 +40,8 @@ git clone <github-url> %userprofile%\AppData\Local\nvim
 | https://github.com/lewis6991/gitsigns.nvim               | Gitsigns         | Simple git integration directly in the neovim buffer to view updates.                                                                                                          |
 | https://github.com/folke/noice.nvim                      | Noice            | Experimental plugin which is used for UI enhancements
 | https://github.com/j-hui/fidget.nvim                     | Fidget           | View messages with this plugin to enable an enhanced UI experience.                                                                                                            |
-| https://github.com/nvim-lualine/lualine.nvim/tree/master | Lualine          | Customize the status line to display essential information.                                                                                                                    |
+| https://github.com/nvim-lualine/lualine.nvim             | Lualine          | Customize the status line to display essential information.                                                                                                                    |
+| https://github.com/akinsho/toggleterm.nvim               | Toggleterm       | A floating terminal instance plugin
 | https://github.com/folke/todo-comments.nvim              | Todo Comments    | Automatically highlight keywords in comments for improved readability.                                                                                                         |
 | https://github.com/folke/which-key.nvim                  | Which key        | Essential plugin for starting with neovim and getting used to keymaps.                                                                                                         |
 
@@ -57,7 +57,6 @@ nvim/
     ├── lsp.lua
     ├── diagnostics.lua
     ├── telescope.lua
-    ├── terminal.lua
     └── plugins/
 ```
 
@@ -74,7 +73,5 @@ nvim/
 `lua/diagnostics.lua` configures neovim to enable diagnostics, to show error messages in buffers.
 
 `lua/telescope.lua` enables simple keymaps for telescope to fuzzy find marks, files, etc.
-
-`lua/terminal.lua` creates an interface for a floating terminal, which can be extremely helpful for quickly debugging.
 
 `lua/plugins/` has all the plugins mentioned earlier along with a simple configuration for each plugin.
